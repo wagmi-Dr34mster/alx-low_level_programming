@@ -27,5 +27,5 @@ j = 0;
 else
 return (haystack + 1);
 }
-return(0);
+return (0);
 }
