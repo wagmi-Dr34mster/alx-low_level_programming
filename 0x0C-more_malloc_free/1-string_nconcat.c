@@ -7,16 +7,15 @@
  * @s2: second string to copy
  * @n: number of bytes of 2 to copy
  *
- * Return: cahr pointer tonewly alloacted place in memory
+ * Return: char pointer to newly alloacted place in memory
  */
-char *string_nconcat(char *s1, char *s2, unigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 unsigned int i, j, k;
 char *s;
 
 if (s1 == NULL)
 i = 0;
-
 else
 {
 for (i = 0; s1[i]; i++)
