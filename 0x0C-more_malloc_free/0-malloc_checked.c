@@ -8,7 +8,7 @@
  * Return: pointer to allocated memory or normal process terminat
  * ion if error
  */
-void *malloc_checked(unsignedint b)
+void *malloc_checked(unsigned int b)
 {
 void *p
 
